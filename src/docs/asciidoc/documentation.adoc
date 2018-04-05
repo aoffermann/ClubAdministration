@@ -1,0 +1,41 @@
+= Vereinsverwaltungs Tool 
+= Für den Country Swimming Club.
+Alexander Offermann <alexander.offermann@gmail.com>
+0.1, November 9, 2016
+
+== Anforderungen an die Vereinsverwaltung.
+
+In diesem kleinen Projekt soll eine Software zur Verwaltung eines Vereins entstehen.
+Diese besteht aus einem Server und einer GUI Oberfäsche über die die Nutzter die Verwaltung durchführen kann.
+
+*Hier eine Liste der Module.*
+
+* Mitgleiderverwaltung
+* Verwaltung der Schwimmabzeichen 
+* Verwaltung der Lizenen
+* Verwaltung der Veriensrekorde
+* Verwaltung der Bestezeiten für jeden Schwimmer
+* Buchhaltung (Verienfacht für VOG's)
+* Export / Import Schnittstellen (zB. Für den Verband)
+* Diverse Reports
+
+Wir werden in den weiteren Kapiteln uns mit jedem einezelnen Modul weiter beschäftigen und dieses dann näher beschreiben.
+	
+=== Mitgleiderverwaltung
+
+In diesem Module wird die allgemeine Mitgleiderverwaltung weiter spezifiziert.
+
+==== Datenstrukturen
+
+. Entity Member
+. Entity Cities
+
+==== Use Cases
+
+. Anlegen Mietglied
+. Änderen Mietglied
+. Archivieren/Löschen Mietglied
+
+==== GUI (Oberfläsche)
+
+==== Reports 
