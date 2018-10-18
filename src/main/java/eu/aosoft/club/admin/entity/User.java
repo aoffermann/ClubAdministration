@@ -1,6 +1,3 @@
-/**
- * 
- */
 package eu.aosoft.club.admin.entity;
 
 import javax.persistence.Column;
@@ -21,14 +18,14 @@ import lombok.Data;
  * 
  */
 @Entity
-@Table(name = "USER_DATA")
+@Table(name = "USER")
 @Data
 @Audited
 public class User {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_data_generator")
-	@SequenceGenerator(name = "user_data_generator", sequenceName = "user_data_seq", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_generator")
+	@SequenceGenerator(name = "user_generator", sequenceName = "user_seq", allocationSize = 1)
 	@Column(name = "USER_ID")
 	private Long userId;
 	
