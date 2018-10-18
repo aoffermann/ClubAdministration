@@ -1,5 +1,5 @@
 /**
- * 
+ * The UserService implementation
  */
 package eu.aosoft.club.admin.service;
 
@@ -26,7 +26,7 @@ public class UserService implements UserIF {
 	
 	@Autowired
 	private UserMapper userMapper;
-	
+
 	/* (non-Javadoc)
 	 * @see eu.aosoft.club.admin.service.UserIF#getByUserName(java.lang.String)
 	 */
