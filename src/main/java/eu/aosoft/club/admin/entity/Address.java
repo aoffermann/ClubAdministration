@@ -9,6 +9,15 @@ import javax.validation.constraints.NotNull;
 /**
  * @author Offermann Alexander
  *
+ * CREATE TABLE ADDRESS (
+ *     ADDRESS_ID 			BIGINT 				NOT NULL,
+ * 	   STREET    			VARCHAR2(255) 		NOT NULL,
+ * 	   POSTCODE    		    VARCHAR2(10) 		NOT NULL,
+ * 	   LOCATION   			VARCHAR2(255) 		NOT NULL,
+ * 	   COUNTRY   			VARCHAR2(255) 		NOT NULL,
+ * 	   PRIMARY KEY (ADDRESS_ID)
+ * );
+ *
  */
 @Entity
 @Table(name = "ADDRESS")

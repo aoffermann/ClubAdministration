@@ -15,7 +15,14 @@ import lombok.Data;
 
 /**
  * @author Offermann Alexander
- * 
+ *
+ * CREATE TABLE USER (
+ * 	   USER_ID 				BIGINT 				NOT NULL,
+ *     USER_NAME 			VARCHAR2(255) 		NOT NULL,
+ *     PASSWORD				VARCHAR2(255)		NOT NULL,
+ *     PRIMARY KEY (USER_ID)
+ * );
+ *
  */
 @Entity
 @Table(name = "USER")
