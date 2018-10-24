@@ -23,6 +23,7 @@ public class UserMapper extends ConfigurableMapper {
 			.field("userId", "userId")
 			.field("userName", "userName")
 			.field("password", "password")
+			.byDefault()
 			.register();
 		
 	}

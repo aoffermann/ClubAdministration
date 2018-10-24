@@ -1,1 +1,7 @@
+--- User
+
 curl -H "Content-Type: application/json" -X POST -d "@add_01.json" http://localhost:8080/user/add
+
+--- Member
+
+curl -H "Content-Type: application/json" -X GET http://localhost:8080/member/Offermann/Alexander

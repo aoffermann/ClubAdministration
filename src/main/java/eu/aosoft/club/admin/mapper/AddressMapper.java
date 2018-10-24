@@ -21,6 +21,7 @@ public class AddressMapper extends ConfigurableMapper {
                 .field("postcode", "postcode")
                 .field("location", "location")
                 .field("country", "country")
+                .byDefault()
                 .register();
 
     }
