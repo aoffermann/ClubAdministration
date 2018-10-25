@@ -1,0 +1,18 @@
+{
+  "memberId":1,
+  "name":"Offermann",
+  "firstName":"Alexander",
+  "nationality":"B",
+  "birthday":"1978-01-01",
+  "phone":"087121212",
+  "mobilePhone":"0494121212",
+  "mail":"a@a.com",
+  "addressDto":
+  {
+    "addressId":1,
+    "street":"TotoStreet 100",
+    "postcode":"12345",
+    "location":"Ali Baba City",
+    "country":"GERMANY"
+  }
+}

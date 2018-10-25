@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import eu.aosoft.club.admin.dto.UserDto;
-import eu.aosoft.club.admin.service.UserIF;
+import eu.aosoft.club.admin.service.IF.UserIF;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;

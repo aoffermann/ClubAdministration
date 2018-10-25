@@ -3,6 +3,7 @@
  */
 package eu.aosoft.club.admin.service;
 
+import eu.aosoft.club.admin.service.IF.UserIF;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -28,7 +29,7 @@ public class UserService implements UserIF {
 	private UserMapper userMapper;
 
 	/* (non-Javadoc)
-	 * @see eu.aosoft.club.admin.service.UserIF#getByUserName(java.lang.String)
+	 * @see eu.aosoft.club.admin.service.IF.UserIF#getByUserName(java.lang.String)
 	 */
 	@Override
 	public UserDto getByUserName(String userName) {
@@ -37,7 +38,7 @@ public class UserService implements UserIF {
 	}
 
 	/* (non-Javadoc)
-	 * @see eu.aosoft.club.admin.service.UserIF#saveUser(eu.aosoft.club.admin.dto.UserDto)
+	 * @see eu.aosoft.club.admin.service.IF.UserIF#saveUser(eu.aosoft.club.admin.dto.UserDto)
 	 */
 	@Override
 	public UserDto saveUser(UserDto newUser) {

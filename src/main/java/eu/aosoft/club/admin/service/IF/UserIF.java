@@ -1,7 +1,7 @@
 /**
  * 
  */
-package eu.aosoft.club.admin.service;
+package eu.aosoft.club.admin.service.IF;
 
 import eu.aosoft.club.admin.dto.UserDto;
 

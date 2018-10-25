@@ -1,4 +1,4 @@
-package eu.aosoft.club.admin.service;
+package eu.aosoft.club.admin.service.IF;
 
 import eu.aosoft.club.admin.dto.MemberDto;
 
@@ -8,7 +8,7 @@ import eu.aosoft.club.admin.dto.MemberDto;
  */
 public interface MemberIF {
 
-    public MemberDto getByMemberNameAndFirstName(String name, String firstName);
+    public MemberDto getByMemberNameAndFirstName(String name, String firstName) throws IllegalArgumentException;
 
     public MemberDto saveMember(MemberDto newMember);
 
